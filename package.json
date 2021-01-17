@@ -19,8 +19,7 @@
 		"lua panda"
 	],
 	"engines": {
-		"vscode": "^1.25.0",
-		"node": "^7.9.0"
+		"vscode": "^1.27.0"
 	},
 	"icon": "res/icon/luapanda_logo.png",
 	"categories": [
@@ -42,24 +41,25 @@
 		"publish": "vsce package"
 	},
 	"dependencies": {
+		"antlr4": "^4.7.2",
 		"await-notify": "1.0.1",
 		"lua-fmt": "^2.6.0",
 		"luaparse": "^0.2.1",
-		"path-reader": "^1.1.0",
+		"path-reader": "1.1.0",
 		"univac": "0.0.8",
-		"urlencode": "^1.1.0",
-		"vscode-debugadapter": "1.27.0",
-		"vscode-debugprotocol": "1.27.0",
-		"vscode-languageclient": "^5.2.1",
-		"vscode-languageserver": "^5.2.1"
+		"urlencode": "1.1.0",
+		"vscode-debugadapter": "1.31.0",
+		"vscode-debugprotocol": "1.31.0",
+		"vscode-languageclient": "5.1.0",
+		"vscode-languageserver": "5.2.1"
 	},
 	"devDependencies": {
-		"@types/mocha": "2.2.48",
-		"@types/node": "7.0.55",
-		"@types/vscode": "^1.25.0",
+		"@types/mocha": "^7.0.2",
+		"@types/node": "^14.14.21",
+		"@types/vscode": "^1.27.0",
 		"mocha": "5.0.1",
-		"tslint": "5.9.1",
-		"typescript": "2.6.2",
+		"tslint": "^5.8.0",
+		"typescript": "^4.0.2",
 		"vsce": "1.37.5",
 		"vscode-debugadapter-testsupport": "1.27.0"
 	},
