@@ -36,6 +36,7 @@
 	"scripts": {
 		"vscode:prepublish": "npm run compile",
 		"compile": "tsc -p ./src",
+		"build": "tsc -p ./src",
 		"watch": "tsc -watch -p ./src",
 		"package": "vsce package",
 		"publish": "vsce package"
